@@ -1,0 +1,284 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+body {
+  font-family: 'Roboto', sans-serif;
+  line-height: 1.4;
+}
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+#navbar {
+  position: sticky;
+  top: 0;
+  background: #333;
+  color: #fff;
+  z-index: 1;
+}
+
+#navbar .container {
+  display: flex;
+  justify-content: space-between;
+}
+
+.logo {
+  font-size: 1.3rem;
+  padding: .8rem 0;
+}
+
+
+
+.item-list {
+  list-style: none;
+  display: flex;
+  align-items: center;
+}
+
+.item a {
+  color: #fff;
+  text-decoration: none;
+  padding: .5rem .75rem;
+}
+
+.item a:hover {
+  background: rgb(226, 80, 80);
+  border-radius: 5px;
+}
+
+#showcase {
+  background: #333 url('/showcase.jpg') no-repeat center center/cover;
+  height: 100vh;
+  line-height: 1.4;
+}
+
+#showcase #showcase-content {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+  align-items: center;
+  height: 100%;
+  color: #fff;
+  position: absolute;
+  top: 54px;
+  left: 0;
+  background-color: rgb(0, 0, 0, 0.4);
+  right: 0;
+  bottom: 0;
+  padding: 0 2rem;
+}
+
+#showcase #showcase-content .l-heading {
+  font-size: 4rem;
+  margin-bottom: 1.5rem;
+}
+
+#showcase #showcase-content .lead {
+  line-height: 1.5;
+  margin-bottom: 1.5rem;
+}
+
+.btn {
+  color: white;
+  padding: .5rem 2rem;
+  background: rgb(207, 67, 67);
+  text-decoration: none;
+  border-radius: 5px;
+  display: inline-block;
+  border: none;
+}
+
+
+
+.btn:hover {
+  background: #885464;
+}
+
+/* section: what we do */
+#what .container .items {
+  display: flex;
+  padding: 1rem;
+  justify-content: center;
+  align-items: center;
+  padding: 1rem;
+}
+
+#what .container .items .item {
+  text-align: center;
+  flex: 1;
+  padding: 1rem;
+}
+
+#what .container .items .item i {
+  background: rgb(212, 98, 69);
+  padding: 1rem;
+  border-radius: 50%;
+  margin-bottom: 1rem;
+}
+
+#what .container .items .item div p {
+  color: #333;
+}
+
+/* section: who we are */
+#who {
+  display: flex;
+  margin: auto;
+}
+
+#who div {
+  flex: 1;
+}
+
+#who .who-img {
+  background: url('/people.jpg') no-repeat center center/cover;
+}
+
+.list {
+  list-style: none;
+  margin-top: .5rem;
+}
+
+.list li {
+  text-decoration: none;
+  padding: .6rem 0;
+  border-bottom: rgb(146, 145, 145) dotted .5px;
+}
+
+/* section: our clients */
+#client .container {
+  text-align: center;
+}
+
+.clients {
+  display: flex;
+  margin: auto;
+  justify-content: center;
+  text-align: center;
+}
+
+.img-logo {
+  text-align: center;
+  display: block;
+  flex: 1;
+  margin-top: 1rem;
+}
+
+#client .clients >*:first-child {
+  padding-top: .8rem;
+}
+
+.img-logo img {
+  
+  
+  width: 60%;
+}
+
+.who-text h2 {
+  margin-top: 1rem;
+}
+
+/* contact */
+#contact {
+  display: flex;
+  
+}
+
+#contact div {
+  flex: 1;
+}
+
+#contact .contact-content {
+  padding: 1rem;
+  
+}
+
+#contact .contact-content h2, p {
+  margin-bottom: .5rem;
+}
+
+#contact .contact-content h2, p, label {
+  color: #fff;
+  
+}
+
+.form {
+  padding: .4rem;
+}
+
+.form-items input, textarea, input[type='submit'] {
+  display: block;
+  margin-bottom: .5rem;
+  width: 100%;
+  border: none;
+  padding: .5rem;
+}
+
+/* footer */
+.footer {
+  text-align: center;
+}
+
+.footer h2 {
+  font-size: 1rem;
+}
+
+/* Utility classess */
+.container {
+  max-width: 1100px;
+  margin: auto;
+  padding: 0 2rem;
+  overflow: hidden;
+}
+
+.py-1 { padding: 1.5rem 0; } 
+.py-2 { padding: 2rem 0; } 
+.py-3 { padding: 3rem 0; } 
+
+.p-1 { padding: 1.5rem; } 
+.p-2 { padding: 2rem; } 
+.p-3 { padding: 3rem; } 
+
+.text-center {
+  text-align: center;
+}
+
+.btn-dark {
+  background: #333;
+  color: #fff;
+}
+
+.container {
+  max-width: 1100px;
+  padding: 0 2rem;
+  margin: auto;
+  overflow: hidden;
+}
+
+.m-heading {
+  font-size: 2rem;
+  padding-bottom: .75rem;
+  line-height: 1.1;
+}
+
+.text-primary {
+  color: rgba(245, 88, 67, 0.979);
+}
+
+.bg-light {
+  background: #fff;
+  color: #333;
+}
+
+.bg-dark {
+  background: #333;
+  color: #fff;
+}
+
+.bg-primary {
+  background: rgb(212, 98, 69);
+  color: #333;
+}
